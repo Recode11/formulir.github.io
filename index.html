@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pengisian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="fc3af8c0ad4a2fd8c8871fa7f703e24e.jpg" alt="Illustrasi Misi">
+    <h1>Selamat Datang, Penjelajah Pulau Sumba!</h1>
+    <p>Kami dengan bangga ingin berbagi dengan Anda visi luar biasa kami untuk menciptakan sebuah web yang menghadirkan
+      kecantikan Pulau Sumba secara digital. Proyek ini tidak hanya tentang membuat situs web biasa, tetapi tentang
+      menciptakan sebuah portal interaktif yang membawa Pulau Sumba kepada Anda, di mana pun Anda berada.
+    </p>
+    <hr>
+    <div class="po">
+      <h1>Mengapa Pulau Sumba?</h1>
+      <p><b>Kekayaan Budaya</b> Pulau Sumba memiliki warisan budaya yang kaya, dari seni tradisional hingga ritual adat
+        yang menakjubkan. Web ini akan menjadi panggung untuk merayakan dan melestarikan keunikan budaya ini.
+      </p>
+      <p><b>Keindahan Alam yang Luar Biasa </b>Dengan pantai-pantai yang memukau, tanah hijau yang subur, dan
+        pemandangan
+        alam yang menakjubkan, Pulau Sumba adalah surga yang belum terjamah. Web ini akan memperkenalkan keindahan alam
+        yang memikat hati.</p>
+      <p><b>Jejak Sejarah yang Menarik</b> Pulau Sumba memiliki sejarah yang kaya dan beragam, dengan cagar budaya yang
+        menceritakan kisah-kisah masa lalu. Web ini akan menggali dan mempresentasikan warisan sejarah ini.
+      </p>
+    </div>
+    <hr>
+    <h1>Bagaimana Anda Dapat Berkontribusi</h1>
+    <p>Kami mengundang Anda, penduduk setempat, untuk berbagi pemikiran, ide, dan cerita Anda. Apakah itu tentang
+      festival adat, tempat-tempat tersembunyi, atau kisah-kisah menarik, kontribusi Anda akan membantu membangun
+      pengalaman digital yang luar biasa ini.</p>
+      <p> Bersama-sama, mari kita bangun sebuah web yang menjadi jendela virtual ke Pulau Sumba. Ayo, mari berbagi dan menciptakan sesuatu yang istimewa bersama! Salam, Tim Proyek Pulau Sumba 🏝️🌺</p>
+  </div>
+  <form id="allForms" action="send_email.php" method="POST">
+    <!-- Formulir Budaya -->
+    <div class="container">
+      <h2>Budaya</h2>
+      <label for="ide_budaya">Ide:</label>
+      <input type="text" id="ide_budaya" name="ide_budaya" required>
+      <label for="keterangan_budaya">Keterangan:</label>
+      <input type="text" id="keterangan_budaya" name="keterangan_budaya" required>
+    </div>
+    <!-- Formulir Wisata -->
+    <div class="container">
+      <h2>Wisata</h2>
+      <label for="ide_wisata">Ide:</label>
+      <input type="text" id="ide_wisata" name="ide_wisata" required>
+      <label for="keterangan_wisata">Keterangan:</label>
+      <input type="text" id="keterangan_wisata" name="keterangan_wisata" required>
+    </div>
+    <!-- Formulir Sejarah -->
+    <div class="container">
+      <h2>Sejarah</h2>
+      <label for="ide_sejarah">Ide:</label>
+      <input type="text" id="ide_sejarah" name="ide_sejarah" required>
+      <label for="keterangan_sejarah">Keterangan:</label>
+      <input type="text" id="keterangan_sejarah" name="keterangan_sejarah" required>
+    </div>
+    <div class="container"><button type="submit">Submit Semua</button></div>
+  </form>
+</body>
+
+</html>
